@@ -7,19 +7,5 @@
     "url": "https://github.com/Supaman45"
   },
   "homepage": "https://github.com/Supaman45/sevyn-skills",
-  "keywords": ["amara", "ai-influencer", "wellness", "biohacking", "social-content"],
-  "skills": [
-    {
-      "name": "amara-voice-writer",
-      "path": "./skills/amara-voice-writer"
-    },
-    {
-      "name": "amara-prompt-builder",
-      "path": "./skills/amara-prompt-builder"
-    },
-    {
-      "name": "amara-content-scheduler",
-      "path": "./skills/amara-content-scheduler"
-    }
-  ]
+  "keywords": ["amara", "ai-influencer", "wellness", "biohacking", "social-content"]
 }
