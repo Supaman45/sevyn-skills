@@ -1,0 +1,19 @@
+{
+  "name": "sevyn-skills",
+  "description": "Sevyn AI internal skills marketplace. Autonomous content operations across Amara, The Town Weekly, Brnstak, and Slumbiq brands.",
+  "owner": {
+    "name": "Seri",
+    "url": "https://github.com/Supaman45"
+  },
+  "plugins": [
+    {
+      "name": "amara-content-pipeline",
+      "source": "./plugins/amara-content-pipeline",
+      "description": "Full content pipeline for @amara.stx. Voice writing, Soul 2.0 prompt construction, and Blotato scheduling for IG, TikTok, and Twitter. Use whenever the user wants to generate, draft, or schedule content for Amara across any social platform.",
+      "version": "0.1.0",
+      "category": "content-automation",
+      "keywords": ["amara", "ai-influencer", "wellness", "biohacking", "social-content", "higgsfield", "blotato"],
+      "strict": true
+    }
+  ]
+}

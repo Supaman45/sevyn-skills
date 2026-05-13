@@ -1,0 +1,56 @@
+{
+  "version": "0.1.0",
+  "last_updated": "2026-05-12",
+  "pillars": {
+    "morning_protocol": {
+      "instagram": [
+        "morningroutine", "biohacking", "femalebiohacker", "wellnessmorning",
+        "morningprotocol", "ouraring", "circadianhealth", "cortisolawakening",
+        "wellnesscreator", "recoveryfocused", "cleangirlaesthetic", "wellnessjourney",
+        "healthylifestyle", "morningwellness", "adaptogen", "lightexposure",
+        "sleephygiene", "wellnessroutine", "biohackingfemale", "hormonebalance"
+      ],
+      "tiktok": ["fyp", "morningroutine", "biohacking", "wellnesstok", "femalebiohacker"],
+      "twitter": []
+    },
+    "protocol_education": {
+      "instagram": [
+        "biohacking", "femalebiohacker", "womenshealth", "hormonebalance",
+        "supplementprotocol", "peptidetherapy", "magnesiumglycinate", "creatineforwomen",
+        "wellnesseducation", "protocoldesign", "wellnesscreator", "cyclesyncing",
+        "lutealphase", "follicularphase", "womenshormones", "researchbacked",
+        "wellnessresearch", "healthoptimization", "wellnessjourney", "recoveryfocused"
+      ],
+      "tiktok": ["fyp", "biohacking", "wellnesstok", "womenshealth", "educational"],
+      "twitter": []
+    },
+    "recovery_rituals": {
+      "instagram": [
+        "recoveryday", "parasympathetic", "nervoussystemregulation", "vagusnerve",
+        "saunatherapy", "coldexposure", "recoveryprotocol", "wellnessritual",
+        "stressrelief", "cortisolregulation", "wellnesscreator", "biohacking",
+        "femalebiohacker", "breathwork", "recoverytools", "healthylifestyle",
+        "wellnessjourney", "infraredsauna", "redlighttherapy", "podwalk"
+      ],
+      "tiktok": ["fyp", "recovery", "saunatok", "coldplunge", "wellnesstok"],
+      "twitter": []
+    },
+    "wearable_data": {
+      "instagram": [
+        "ouraring", "whoop", "hrvtraining", "zone2cardio", "zone2training",
+        "pilatesathome", "strengthforwomen", "wearabledata", "datadrivenfitness",
+        "recoveryfocused", "cgmcontinuous", "glucosetracking", "biohacking",
+        "femalebiohacker", "wellnesscreator", "functionalfitness", "womensfitness",
+        "wellnessjourney", "healthtracking", "wellnessdata"
+      ],
+      "tiktok": ["fyp", "ouraring", "whoop", "zone2", "wellnesstok"],
+      "twitter": []
+    }
+  },
+  "notes": {
+    "instagram_count": "18-25 tags optimal. Mix big (1M+), mid (100k-1M), niche (under 100k).",
+    "tiktok_count": "3-5 tags maximum. More hurts reach.",
+    "twitter_count": "0-2 tags. Often best with zero.",
+    "ai_disclosure": "Always set isAiGenerated true for TikTok posts."
+  }
+}

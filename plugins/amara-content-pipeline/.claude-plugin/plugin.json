@@ -1,0 +1,25 @@
+{
+  "name": "amara-content-pipeline",
+  "version": "0.1.0",
+  "description": "End-to-end content pipeline for Amara (@amara.stx), the Quiet Biohacker AI influencer. Bundles three skills: voice writing for captions, Soul 2.0 prompt construction with Soul ID locked, and Blotato scheduling across IG, TikTok, and Twitter.",
+  "author": {
+    "name": "Seri",
+    "url": "https://github.com/Supaman45"
+  },
+  "homepage": "https://github.com/Supaman45/sevyn-skills",
+  "keywords": ["amara", "ai-influencer", "wellness", "biohacking", "social-content"],
+  "skills": [
+    {
+      "name": "amara-voice-writer",
+      "path": "./skills/amara-voice-writer"
+    },
+    {
+      "name": "amara-prompt-builder",
+      "path": "./skills/amara-prompt-builder"
+    },
+    {
+      "name": "amara-content-scheduler",
+      "path": "./skills/amara-content-scheduler"
+    }
+  ]
+}
