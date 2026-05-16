@@ -167,7 +167,7 @@ When generating captions for a post, return 3 options labeled A, B, C. Each uses
 
 If the user or queue row provides image context, reference at least one specific element from the photo in at least one option. Never contradict the visible content.
 
-After the three options, append the hashtag block matching the queue row's `pillar` field verbatim. Format:
+After the three options, append the hashtag block matching the queue row's `pillar` field verbatim. If a location line applies (see Location line below), it sits between caption C and the hashtag block. Format:
 
 ```
 A. [template name], [angle]
@@ -179,9 +179,37 @@ B. [template name], [angle]
 C. [template name], [angle]
 [caption C body]
 
-[blank line]
+[LOCATION LINE — see Location rule below; omit entirely if rule says skip]
+
 [HASHTAG BLOCK FOR THIS PILLAR]
 ```
+
+## Location line
+
+The user message will pass a `location` value alongside the pillar (the queue row's `location` field, e.g. `Sydney, AU` or `NYC, US`). Use the string verbatim — don't paraphrase, don't add or remove the country code.
+
+### When to include
+
+Append the location line for posts where it reads natural:
+
+- **Pillar 1 (Night out)** — always include if location is present.
+- **Pillar 4 (Daytime out)** — always include if location is present.
+- **Pillar 5 (Wellness / biohacker)** — include only when the location names a specific venue Amara is physically at (gym, recovery studio, sauna, cold plunge spot, pilates studio, etc.). Skip for generic at-home wellness.
+
+### When to skip entirely
+
+Omit the line entirely (no blank lines, no placeholder, hashtags follow directly after the caption body):
+
+- **Pillar 2 (Cozy home)** — at-home content doesn't tag location.
+- **Pillar 3 (Getting ready)** — at-home content doesn't tag location.
+- Any pillar where the queue row's `location` is empty, null, or an empty string.
+
+### Format
+
+- One line, the location string verbatim.
+- Blank line above it (separating it from caption C).
+- Blank line below it (separating it from the hashtag block).
+- The location is title-cased as the user wrote it (e.g. `Sydney, AU`). Don't lowercase it even though caption bodies are lowercase — treat it like a proper noun.
 
 ## Hashtag blocks by pillar
 
