@@ -14,6 +14,14 @@
       "category": "content-automation",
       "keywords": ["amara", "ai-influencer", "wellness", "biohacking", "social-content", "higgsfield", "blotato"],
       "strict": true
+    },
+}
+"name": "slumbiq-pipeline",
+      "source": "./plugins/slumbiq-pipeline",
+      "description": "End-to-end carousel pipeline for @slumbiq, the ambient sleep YouTube channel. Selects template, writes on-brand slide copy, renders branded 1080x1350 Instagram and 1080x1920 TikTok slides with vignetted thumbnails, and schedules cross-platform posts via Blotato. Triggers automatically after each YouTube upload via marker queue. Use whenever Slumbiq video uploads complete or carousel work signals appear.",
+      "version": "0.1.0",
+      "category": "content-automation",
+      "keywords": ["slumbiq", "ambient-sleep", "ai-channel", "sleep-content", "youtube-automation", "blotato", "carousel"],
+      "strict": true
     }
   ]
-}
