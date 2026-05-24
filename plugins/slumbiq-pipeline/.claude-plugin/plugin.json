@@ -1,0 +1,11 @@
+{
+  "name": "slumbiq-pipeline",
+  "version": "0.1.0",
+  "description": "End-to-end content pipeline for Slumbiq (@slumbiq), the ambient sleep audio channel. Bundles three carousel skills: template selection with on-brand copy writing, branded slide rendering with vignetted thumbnails, and cross-platform scheduling via Blotato across Instagram, TikTok, and Twitter. Room to grow with future skills for audio production, YouTube upload, and Gumroad sync.",
+  "author": {
+    "name": "Seri",
+    "url": "https://github.com/Supaman45"
+  },
+  "homepage": "https://github.com/Supaman45/sevyn-skills",
+  "keywords": ["slumbiq", "ambient-sleep", "ai-channel", "sleep-content", "youtube-automation"]
+}
